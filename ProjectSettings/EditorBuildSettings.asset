@@ -7,6 +7,9 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main VR Scene.unity
+    guid: 7b94107854ac82b4b8194df11a5bd81d
+  - enabled: 1
+    path: Assets/Scenes/TestingZone.unity
     guid: 0a2993a7d68a28743be5ce30d2920301
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2e925abd3de2930429e242a3b032f179,
