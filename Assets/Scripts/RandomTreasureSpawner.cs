@@ -19,9 +19,6 @@ public class RandomTreasureSpawner : MonoBehaviour
         float MinScaleZ = Center.z - ((Scale.z) / 2);
         float MaxScaleZ = Center.z + ((Scale.z) / 2);
 
-        //float treasureRadius = TreasureToSpawn.GetComponent<SphereCollider>().radius;
-        //Debug.Log("Center: " + Center + " Scale: " + Scale + " MinScaleX: " + MinScaleX + " MaxScaleX: " + MaxScaleX + " MinScaleZ: " + MinScaleZ + " MaxScaleZ: " + MaxScaleZ);
-
         // Set randomX = Random.Range(min,max)
         int successfulTreasureSpawns = 0;
         while (successfulTreasureSpawns < NumberOfTreasures)
